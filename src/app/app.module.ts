@@ -3,8 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-// MatCarousel Module
-import { MatCarouselModule } from '@ngmodule/material-carousel';
+// Carousel Modules
+import { Angular2UsefulSwiperModule } from 'angular2-useful-swiper';
+// import { MatCarouselModule } from '@ngmodule/material-carousel';
 
 // Material Modules
 import { MatMenuModule } from '@angular/material/menu';
@@ -35,7 +36,8 @@ import { HomeComponent } from './core/home/home.component';
    imports: [
       BrowserModule,
       BrowserAnimationsModule,
-      MatCarouselModule,
+      Angular2UsefulSwiperModule,
+      // MatCarouselModule,
       MatMenuModule,
       routing
    ],
